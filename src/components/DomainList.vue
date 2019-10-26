@@ -77,7 +77,7 @@ export default {
 	},
 	computed: {
 		domains() {
-			console.log("generating domains...");
+			//console.log("generating domains...");
 			const domains = [];
 			for (const prefix of this.prefixes) {
 				for (const sufix of this.sufixes) {
